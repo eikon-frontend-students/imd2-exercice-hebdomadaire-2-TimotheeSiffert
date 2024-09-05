@@ -12,3 +12,53 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #e9e9e9;
+  font-family: Inter;
+}
+
+.onglets {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: flex;
+  padding: 20px 30px;
+  align-items: flex-start;
+  gap: 20px;
+  border-radius: 32px;
+  background: #fff;
+}
+
+.fr,
+.mail {
+  display: flex;
+  width: 64px;
+  height: 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  background: #fff;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  padding: 20px 50px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bubbles {
+  display: flex;
+  align-items: flex-start;
+}
